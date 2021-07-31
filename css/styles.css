@@ -7,11 +7,27 @@ footer {
 }
 
 header {
+    display: flex;
     grid-area: 1/1/2/4;
+}
+
+header a {
+    color: #606060;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    margin: 23px 0;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 main {
     grid-area: 2/2/3/3;
+    margin-top: 75px;
 }
 
 #container {
@@ -61,6 +77,18 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+#sign-in {
+    background-color: #608fff;
+    border: none;
+    border-radius: 4px;;
+    color: white;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: bold;
+    padding: 0 15px;
+    margin: 15px;
 }
 
 .search-btn {

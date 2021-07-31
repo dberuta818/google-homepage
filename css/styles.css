@@ -3,7 +3,22 @@ body {
 }
 
 footer {
+    background-color: #f0f0f0;
+    border-top: 1px solid #dfdfdf;
+    display: flex;
     grid-area: 3/1/4/4
+}
+
+footer a {
+    color: #606060;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 15px;
+    text-decoration: none;;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 header {
